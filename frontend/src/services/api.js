@@ -1,11 +1,12 @@
 import axios from 'axios';
 
+const API_BASE_URL = 'https://rbac-ivxz.onrender.com/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   timeout: 15000,
   headers: { 'Content-Type': 'application/json' },
 });
-
 // ─── Request interceptor: attach JWT ─────────────────────────────────────────
 api.interceptors.request.use(
   (config) => {
