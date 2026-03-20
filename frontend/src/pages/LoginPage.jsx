@@ -134,7 +134,7 @@ export default function LoginPage() {
         {/* Admin hint */}
         <div className="mt-4 p-3.5 bg-emerald-50 border border-emerald-100 rounded-xl">
           <p className="text-xs text-emerald-700 text-center font-medium">
-            🔐 Demo Admin — admin@rbac.dev / Admin@1234
+            🔐 Demo Admin — admin@rbac.dev / Admin@123
           </p>
         </div>
       </div>
