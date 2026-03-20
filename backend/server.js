@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,'https://rbac-three-ochre.vercel.app',
+    origin:'https://rbac-three-ochre.vercel.app',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
